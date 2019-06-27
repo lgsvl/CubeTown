@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15573488, g: 0.14168571, b: 0.11498853, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -570,6 +570,8 @@ MonoBehaviour:
   - {x: 4.549197, y: -0.00000020358925, z: 4.0924206}
   - {x: -4.5492, y: 0.0000002035897, z: 24.290289}
   laneTurn: 1
+  leftLineBoundry: {fileID: 0}
+  rightLineBoundry: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
@@ -667,6 +669,8 @@ MonoBehaviour:
   - {x: 2.550469, y: 0.00000019386381, z: 0.04484445}
   - {x: -2.550467, y: -0.00000019386408, z: 11.920527}
   laneTurn: 1
+  leftLineBoundry: {fileID: 0}
+  rightLineBoundry: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
@@ -814,6 +818,8 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 0}
   - {x: 0.0000009536743, y: 4.5474735e-13, z: 20.615437}
   laneTurn: 1
+  leftLineBoundry: {fileID: 0}
+  rightLineBoundry: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
@@ -1141,75 +1147,6 @@ Transform:
   m_Father: {fileID: 281299966}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1334991284
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2394428975082883577, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_Name
-      value: PostProcessingVolume
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2394428975082883578, guid: 411d60fab451be34d83fa8d9f355bf27,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 411d60fab451be34d83fa8d9f355bf27, type: 3}
 --- !u!1 &1446561211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,6 +1182,8 @@ MonoBehaviour:
   - {x: 5.1100264, y: 0.00000056052187, z: 3.0639591}
   - {x: -5.1100264, y: -0.00000056052176, z: 17.510937}
   laneTurn: 1
+  leftLineBoundry: {fileID: 0}
+  rightLineBoundry: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
@@ -1390,6 +1329,8 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 0}
   - {x: 0.00000017881393, y: 1.07427955e-13, z: 12.436318}
   laneTurn: 1
+  leftLineBoundry: {fileID: 0}
+  rightLineBoundry: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
@@ -1567,6 +1508,8 @@ MonoBehaviour:
   - {x: 2.7798526, y: -0.0000003312499, z: -0.5762279}
   - {x: -2.7798502, y: 0.00000033125036, z: 23.122341}
   laneTurn: 1
+  leftLineBoundry: {fileID: 0}
+  rightLineBoundry: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
