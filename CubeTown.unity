@@ -569,9 +569,13 @@ MonoBehaviour:
   - {x: 4.549198, y: -0.00000020358948, z: -24.290287}
   - {x: 4.549197, y: -0.00000020358925, z: 4.0924206}
   - {x: -4.5492, y: 0.0000002035897, z: 24.290289}
-  laneTurn: 1
+  displayLane: 0
+  isSelfReverseLane: 0
+  selfReverseLane: {fileID: 0}
+  displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 0}
   rightLineBoundry: {fileID: 0}
+  stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
@@ -668,9 +672,13 @@ MonoBehaviour:
   - {x: 2.5504675, y: 0.00000019386403, z: -11.9205265}
   - {x: 2.550469, y: 0.00000019386381, z: 0.04484445}
   - {x: -2.550467, y: -0.00000019386408, z: 11.920527}
-  laneTurn: 1
+  displayLane: 0
+  isSelfReverseLane: 0
+  selfReverseLane: {fileID: 0}
+  displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 0}
   rightLineBoundry: {fileID: 0}
+  stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
@@ -817,9 +825,13 @@ MonoBehaviour:
   - {x: 0.0000008940697, y: 0, z: -20.615438}
   - {x: 0, y: 0, z: 0}
   - {x: 0.0000009536743, y: 4.5474735e-13, z: 20.615437}
-  laneTurn: 1
+  displayLane: 0
+  isSelfReverseLane: 0
+  selfReverseLane: {fileID: 0}
+  displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 0}
   rightLineBoundry: {fileID: 0}
+  stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
@@ -963,6 +975,9 @@ MonoBehaviour:
   OriginNorthing: 0
   UTMZoneId: 0
   AltitudeOffset: 0
+  TimeZoneSerialized: Pacific Standard Time;-480;(UTC-08:00) Pacific Time (US & Canada);Pacific
+    Standard Time;Pacific Daylight Time;[01:01:0001;12:31:2006;60;[0;02:00:00;4;1;0;];[0;02:00:00;10;5;0;];][01:01:2007;12:31:9999;60;[0;02:00:00;3;2;0;];[0;02:00:00;11;1;0;];];
+  TimeZoneString: (UTC-08:00) Pacific Time (US & Canada)
 --- !u!4 &1085922285
 Transform:
   m_ObjectHideFlags: 0
@@ -1181,9 +1196,13 @@ MonoBehaviour:
   - {x: 5.1100264, y: 0.00000056052187, z: -17.510937}
   - {x: 5.1100264, y: 0.00000056052187, z: 3.0639591}
   - {x: -5.1100264, y: -0.00000056052176, z: 17.510937}
-  laneTurn: 1
+  displayLane: 0
+  isSelfReverseLane: 0
+  selfReverseLane: {fileID: 0}
+  displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 0}
   rightLineBoundry: {fileID: 0}
+  stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
@@ -1328,9 +1347,13 @@ MonoBehaviour:
   - {x: -0.0000020861626, y: 1.2057022e-13, z: -12.436318}
   - {x: 0, y: 0, z: 0}
   - {x: 0.00000017881393, y: 1.07427955e-13, z: 12.436318}
-  laneTurn: 1
+  displayLane: 0
+  isSelfReverseLane: 0
+  selfReverseLane: {fileID: 0}
+  displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 0}
   rightLineBoundry: {fileID: 0}
+  stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
@@ -1507,9 +1530,13 @@ MonoBehaviour:
   - {x: 2.779854, y: -0.0000003312499, z: -23.122341}
   - {x: 2.7798526, y: -0.0000003312499, z: -0.5762279}
   - {x: -2.7798502, y: 0.00000033125036, z: 23.122341}
-  laneTurn: 1
+  displayLane: 0
+  isSelfReverseLane: 0
+  selfReverseLane: {fileID: 0}
+  displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 0}
   rightLineBoundry: {fileID: 0}
+  stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
   leftBoundType: 2
