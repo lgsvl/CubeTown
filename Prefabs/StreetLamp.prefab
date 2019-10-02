@@ -52,13 +52,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4997865435529056437}
-  m_LocalRotation: {x: 0.6427876, y: 0, z: 0, w: 0.7660445}
-  m_LocalPosition: {x: 0, y: 11.85, z: 2.5}
-  m_LocalScale: {x: 0.5, y: 0.50000024, z: 0.50000024}
+  m_LocalRotation: {x: -0.11518446, y: 0.6976622, z: -0.11518446, w: 0.6976622}
+  m_LocalPosition: {x: 0, y: -0.099069595, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4997865436097727826}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 80, y: 0, z: 0}
+  m_Father: {fileID: 6107602370269111792}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: -18.75}
 --- !u!108 &4997865435529056441
 Light:
   m_ObjectHideFlags: 0
@@ -68,10 +68,10 @@ Light:
   m_GameObject: {fileID: 4997865435529056437}
   m_Enabled: 1
   serializedVersion: 9
-  m_Type: 0
+  m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 238.7324
-  m_Range: 1000
+  m_Intensity: 22.73642
+  m_Range: 35
   m_SpotAngle: 67.2
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -111,12 +111,12 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 1, y: 1}
+  m_AreaSize: {x: 1.75, y: 0.01}
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 35}
+  m_UseBoundingSphereOverride: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &4997865435529056438
@@ -144,13 +144,13 @@ MonoBehaviour:
   lightUnit: 0
   sunDiskSize: 1
   sunHaloSize: 0.1
-  fadeDistance: 10000
+  fadeDistance: 500
   affectDiffuse: 1
   affectSpecular: 1
   nonLightmappedOnly: 0
-  lightTypeExtent: 0
+  lightTypeExtent: 2
   m_SpotLightShape: 0
-  shapeWidth: 0.5
+  shapeWidth: 1.75
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 4
-  displayLightIntensity: 3000
+  displayLightIntensity: 500
   displayAreaLightEmissiveMesh: 0
   areaLightCookie: {fileID: 0}
   areaLightShadowCone: 120
@@ -248,13 +248,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4997865435812157822}
-  m_LocalRotation: {x: 0.76604444, y: 0, z: 0, w: 0.64278764}
-  m_LocalPosition: {x: 0, y: 11.85, z: -2.5}
-  m_LocalScale: {x: 0.5, y: 0.50000024, z: 0.50000024}
+  m_LocalRotation: {x: 0.11518452, y: 0.6976622, z: 0.11518452, w: 0.6976622}
+  m_LocalPosition: {x: 0, y: -0.099069595, z: -2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4997865436097727826}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 100, y: 0, z: 0}
+  m_Father: {fileID: 6107602370269111792}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 18.75}
 --- !u!108 &4997865435812157794
 Light:
   m_ObjectHideFlags: 0
@@ -264,10 +264,10 @@ Light:
   m_GameObject: {fileID: 4997865435812157822}
   m_Enabled: 1
   serializedVersion: 9
-  m_Type: 0
+  m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 238.7324
-  m_Range: 1000
+  m_Intensity: 22.73642
+  m_Range: 35
   m_SpotAngle: 67.2
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -307,12 +307,12 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 1, y: 1}
+  m_AreaSize: {x: 1.75, y: 0.01}
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 35}
+  m_UseBoundingSphereOverride: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &4997865435812157795
@@ -340,13 +340,13 @@ MonoBehaviour:
   lightUnit: 0
   sunDiskSize: 1
   sunHaloSize: 0.1
-  fadeDistance: 10000
+  fadeDistance: 500
   affectDiffuse: 1
   affectSpecular: 1
   nonLightmappedOnly: 0
-  lightTypeExtent: 0
+  lightTypeExtent: 2
   m_SpotLightShape: 0
-  shapeWidth: 0.5
+  shapeWidth: 1.75
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 4
-  displayLightIntensity: 3000
+  displayLightIntensity: 500
   displayAreaLightEmissiveMesh: 0
   areaLightCookie: {fileID: 0}
   areaLightShadowCone: 120
@@ -446,8 +446,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9368855648706174}
-  - {fileID: 4997865435812157793}
-  - {fileID: 4997865435529056436}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -458,11 +456,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4997865436097727826}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 5bba6487c65ac1e499f587d6e3a90bf9,
-        type: 3}
-      propertyPath: m_Name
-      value: CubeTownStreetLamp
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5bba6487c65ac1e499f587d6e3a90bf9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -518,6 +511,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5bba6487c65ac1e499f587d6e3a90bf9,
+        type: 3}
+      propertyPath: m_Name
+      value: CubeTownStreetLamp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bba6487c65ac1e499f587d6e3a90bf9, type: 3}
 --- !u!1 &3925468941844114541 stripped
@@ -535,6 +533,12 @@ Transform:
 --- !u!1 &4003064448558187260 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8274873701517981592, guid: 5bba6487c65ac1e499f587d6e3a90bf9,
+    type: 3}
+  m_PrefabInstance: {fileID: 4997865435287074148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6107602370269111792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7955199872737193836, guid: 5bba6487c65ac1e499f587d6e3a90bf9,
     type: 3}
   m_PrefabInstance: {fileID: 4997865435287074148}
   m_PrefabAsset: {fileID: 0}
