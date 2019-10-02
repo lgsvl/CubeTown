@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 95e2bf521a93663448bbc5b44d1a2f19
+guid: 36010c1cacc2fa343ba3456dcb841003
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: HazardMaterial
-    second: {fileID: 2100000, guid: 95a28374b63ceb042b7695fc1626e76a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: PavementMaterial
-    second: {fileID: 2100000, guid: 009cb43b0309016469c6d3d4de527ed6, type: 2}
+      name: BuildingMaterial
+    second: {fileID: 2100000, guid: d03f885555c380c44aac78798d660f35, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -90,7 +85,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 100
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 95e2bf521a93663448bbc5b44d1a2f19
+guid: 5bba6487c65ac1e499f587d6e3a90bf9
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: HazardMaterial
-    second: {fileID: 2100000, guid: 95a28374b63ceb042b7695fc1626e76a, type: 2}
+      name: StreetLamp
+    second: {fileID: 2100000, guid: 5e36950adefa0324092ad8667b4dfb5f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: PavementMaterial
-    second: {fileID: 2100000, guid: 009cb43b0309016469c6d3d4de527ed6, type: 2}
+      name: StreetLampEmissive
+    second: {fileID: 2100000, guid: 47ad7f0e1b9a55a4aa14a1804eebee68, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -48,10 +48,10 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
