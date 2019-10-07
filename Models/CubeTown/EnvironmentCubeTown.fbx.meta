@@ -15,7 +15,7 @@ ModelImporter:
       name: PavementMaterial
     second: {fileID: 2100000, guid: 009cb43b0309016469c6d3d4de527ed6, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

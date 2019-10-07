@@ -10,7 +10,7 @@ ModelImporter:
       name: SignalTrafficVertical
     second: {fileID: 2100000, guid: 16c3686eae994bf4baef0ad2ab1ff702, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

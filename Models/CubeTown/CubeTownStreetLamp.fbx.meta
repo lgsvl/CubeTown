@@ -15,7 +15,7 @@ ModelImporter:
       name: StreetLampEmissive
     second: {fileID: 2100000, guid: 47ad7f0e1b9a55a4aa14a1804eebee68, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

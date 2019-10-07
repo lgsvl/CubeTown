@@ -10,7 +10,7 @@ ModelImporter:
       name: SignTrafficStop
     second: {fileID: 2100000, guid: 141943ea177ca6647961450a2e008927, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
