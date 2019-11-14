@@ -103,16 +103,15 @@ MonoBehaviour:
   - {x: -5.471499, y: -0.00000166893, z: -0.8089536}
   - {x: -5.8197236, y: -0.00000166893, z: -8.142232}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527551695063618}
   rightLineBoundry: {fileID: 8191527550131423469}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 2
-  leftBoundType: 0
-  rightBoundType: 0
   speedLimit: 15
 --- !u!1 &431809428645094789
 GameObject:
@@ -258,8 +257,9 @@ MonoBehaviour:
   - {x: -1.3146796, y: -0.0000018640739, z: 5.6757693}
   - {x: -8.08125, y: -0.0000018624215, z: 5.6277122}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527550606042585}
   rightLineBoundry: {fileID: 8191527551635396090}
@@ -267,8 +267,6 @@ MonoBehaviour:
   yieldToLanes:
   - {fileID: 270084806238204098}
   laneTurnType: 2
-  leftBoundType: 0
-  rightBoundType: 0
   speedLimit: 15
 --- !u!1 &589396509324041411
 GameObject:
@@ -480,6 +478,7 @@ MonoBehaviour:
   - {x: -24.927261, y: -0.0000012957614, z: 53.53976}
   - {x: 0.0000038144653, y: -0.0000012957614, z: 53.589436}
   lineType: 3
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -730,6 +729,7 @@ MonoBehaviour:
   - {x: -25.029861, y: -0.0000011412154, z: 47.23111}
   - {x: -0.0000038148146, y: -0.0000011412145, z: 47.16887}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -829,6 +829,7 @@ MonoBehaviour:
   - {x: -0.19513145, y: -0.0000007152558, z: -0.0097322315}
   - {x: 2.8648434, y: -0.00000071525574, z: 0.14288473}
   lineType: 8
+  isVirtual: 0
   isStopSign: 1
   stopSign: {fileID: 0}
   currentState: 2
@@ -883,16 +884,15 @@ MonoBehaviour:
   - {x: 1.4865462, y: 0.0024988651, z: 0.26549447}
   - {x: 4.7191887, y: 0.0024988651, z: 0.06593275}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527550256101312}
   rightLineBoundry: {fileID: 8191527552111215425}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 3
-  leftBoundType: 0
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &3186512368155524936
 GameObject:
@@ -945,6 +945,7 @@ MonoBehaviour:
   - {x: 32.700005, y: -0.00000071525574, z: 0}
   - {x: 54.990005, y: -0.00000071525574, z: 0}
   lineType: 3
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -999,6 +1000,7 @@ MonoBehaviour:
   - {x: -28.080006, y: -0.0000007152557, z: -0.00000047683716}
   - {x: -48.299995, y: -0.0000007152557, z: 0.00000047683716}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -1053,6 +1055,7 @@ MonoBehaviour:
   - {x: 32.6, y: -0.00000071525574, z: 0}
   - {x: 54.92, y: -0.00000071525574, z: 0}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -1107,16 +1110,15 @@ MonoBehaviour:
   - {x: 2.6502554, y: -0.00000166893, z: 1.5440344}
   - {x: 5.761331, y: -0.00000166893, z: 1.8846836}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527551339183494}
   rightLineBoundry: {fileID: 8191527551740854118}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 3
-  leftBoundType: 0
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &3497423522330479460
 GameObject:
@@ -1169,16 +1171,15 @@ MonoBehaviour:
   - {x: 0.0000030994415, y: -0.00000071525574, z: -5.6818604}
   - {x: -0.000004529953, y: -0.00000071525574, z: -10.834869}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527550744710568}
   rightLineBoundry: {fileID: 8191527551386360205}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
-  leftBoundType: 0
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &3497423522568739177
 GameObject:
@@ -1231,16 +1232,15 @@ MonoBehaviour:
   - {x: -1.3274113, y: -0.00000166893, z: 3.2704537}
   - {x: -1.0917394, y: -0.00000166893, z: 6.1598325}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527550195130809}
   rightLineBoundry: {fileID: 8191527551864657515}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 3
-  leftBoundType: 0
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &3513025588373098679
 GameObject:
@@ -1364,16 +1364,15 @@ MonoBehaviour:
   - {x: 0.0000014305115, y: -0.00000071525574, z: 3.6400003}
   - {x: -0.0000023841858, y: -0.00000071525574, z: 10.797986}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527551680795522}
   rightLineBoundry: {fileID: 8191527550910292907}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
-  leftBoundType: 0
-  rightBoundType: 0
   speedLimit: 15
 --- !u!1 &4135233408587617496
 GameObject:
@@ -1426,16 +1425,15 @@ MonoBehaviour:
   - {x: 0.00000047683693, y: -0.00000071525574, z: -22.170012}
   - {x: -0.00000023841903, y: -0.0000007152558, z: -42.70001}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 3186512368155524938}
   rightLineBoundry: {fileID: 3186512368935900053}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
-  leftBoundType: 1
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &4314141813131924133
 GameObject:
@@ -1503,16 +1501,15 @@ MonoBehaviour:
   - {x: -19.558311, y: -0.0000007171998, z: 49.91769}
   - {x: -9.529984, y: -0.0000007172041, z: 50.030075}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 1744875527596900578}
   rightLineBoundry: {fileID: 8319460002027498988}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
-  leftBoundType: 1
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &4584810126935604512
 GameObject:
@@ -1563,6 +1560,7 @@ MonoBehaviour:
   - {x: 0.000004529953, y: -0.041398764, z: 0}
   - {x: 3.150708, y: -0.041398764, z: 0}
   lineType: 8
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -1779,16 +1777,15 @@ MonoBehaviour:
   - {x: 13.606019, y: -0.00000071182785, z: 57.152573}
   - {x: -0.0000074654818, y: -0.00000071184417, z: 56.880802}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 1744875527596900578}
   rightLineBoundry: {fileID: 6227483997159687069}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
-  leftBoundType: 1
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &4765344818084349232
 GameObject:
@@ -1841,16 +1838,15 @@ MonoBehaviour:
   - {x: 3.1830406, y: -0.00000071525574, z: -0.19382143}
   - {x: 6.4879684, y: -0.00000071525574, z: -0.24487877}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527551344872495}
   rightLineBoundry: {fileID: 8191527550529956294}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 3
-  leftBoundType: 0
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &4856068372343433767
 GameObject:
@@ -1914,6 +1910,7 @@ MonoBehaviour:
   - {x: -25.025322, y: -0.0000011412153, z: 47.226562}
   - {x: -9.240891, y: -0.0000011412144, z: 47.164776}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -1967,16 +1964,15 @@ MonoBehaviour:
   - {x: 0.00000071525574, y: -0.00000071525574, z: 4.7299995}
   - {x: 0.00000071525574, y: -0.00000071525574, z: 12.27}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527550268851792}
   rightLineBoundry: {fileID: 8191527550762170181}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
-  leftBoundType: 0
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &5102763706325480821
 GameObject:
@@ -2061,16 +2057,15 @@ MonoBehaviour:
   - {x: -8.024075, y: -0.04148447, z: 6.181177}
   - {x: -15.6401615, y: -0.042815223, z: 6.4232273}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527552234560130}
   rightLineBoundry: {fileID: 8191527550132478248}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 2
-  leftBoundType: 0
-  rightBoundType: 0
   speedLimit: 15
 --- !u!1 &5472817824022788403
 GameObject:
@@ -2121,6 +2116,7 @@ MonoBehaviour:
   - {x: 0.20752646, y: 0.00000023841858, z: -0.018447066}
   - {x: 3.0098913, y: 0.00000023841858, z: -0.26752204}
   lineType: 8
+  isVirtual: 0
   isStopSign: 1
   stopSign: {fileID: 0}
   currentState: 2
@@ -2415,6 +2411,7 @@ MonoBehaviour:
   - {x: -0.03371954, y: -0.00000023841858, z: 0}
   - {x: 3.0001283, y: -0.00000023841864, z: 0}
   lineType: 8
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -2481,6 +2478,7 @@ MonoBehaviour:
   - {x: 27.90973, y: -0.0000014483192, z: 59.825165}
   - {x: 0.000011440364, y: -0.0000014483194, z: 59.883053}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -2626,6 +2624,7 @@ MonoBehaviour:
   - {x: 2.2737368e-13, y: 0.00000023841858, z: -0.0000019073489}
   - {x: 3.2504277, y: 0.00000023841858, z: -0.0000014305115}
   lineType: 8
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -2758,6 +2757,7 @@ MonoBehaviour:
   - {x: -0.12867428, y: 0.00000023841858, z: -0.0012617698}
   - {x: 3.124854, y: 0.00000023841864, z: 0.03066428}
   lineType: 8
+  isVirtual: 0
   isStopSign: 1
   stopSign: {fileID: 0}
   currentState: 2
@@ -2825,6 +2825,7 @@ MonoBehaviour:
   - {x: -24.924442, y: -0.0000012957614, z: 53.536938}
   - {x: -9.192506, y: -0.0000012957614, z: 53.587315}
   lineType: 3
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -2895,16 +2896,15 @@ MonoBehaviour:
   - {x: 13.606019, y: -0.00000071182785, z: 57.152573}
   - {x: -0.0000074654818, y: -0.00000071184417, z: 56.8808}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 1331557946267015584}
   rightLineBoundry: {fileID: 4383403588122313560}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
-  leftBoundType: 1
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &7447019352179906260
 GameObject:
@@ -3013,16 +3013,15 @@ MonoBehaviour:
   - {x: -0.0000011995436, y: -0.00000071525574, z: -3.5717878}
   - {x: -0.0000016838314, y: -0.00000071525574, z: -11.136003}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527551819705594}
   rightLineBoundry: {fileID: 8191527551356875916}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
-  leftBoundType: 0
-  rightBoundType: 0
   speedLimit: 15
 --- !u!1 &7482334916750137148
 GameObject:
@@ -3317,6 +3316,7 @@ MonoBehaviour:
   - {x: 27.912207, y: -0.0000014483193, z: 59.82834}
   - {x: 0.00001525506, y: -0.0000014483194, z: 59.886227}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3371,16 +3371,15 @@ MonoBehaviour:
   - {x: -0.0000005811453, y: -0.00000071525574, z: 20.28}
   - {x: -0.15494141, y: -0.00000071525574, z: 42.95852}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
-  leftLineBoundry: {fileID: 3186512368976395428}
-  rightLineBoundry: {fileID: 3186512368155524938}
+  leftLineBoundry: {fileID: 3186512368155524938}
+  rightLineBoundry: {fileID: 3186512368976395428}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
-  leftBoundType: 1
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &8191527550131423471
 GameObject:
@@ -3437,6 +3436,7 @@ MonoBehaviour:
   - {x: -16.8251, y: -0.00000166893, z: -11.77141}
   - {x: -17.090382, y: -0.00000166893, z: -17.132963}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3495,6 +3495,7 @@ MonoBehaviour:
   - {x: 17.139925, y: -0.010019064, z: 12.085117}
   - {x: 17.136003, y: -0.010019064, z: 17.282055}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3549,6 +3550,7 @@ MonoBehaviour:
   - {x: -5.8826103, y: -0.00000166893, z: 5.061283}
   - {x: -6.44606, y: -0.00000166893, z: 10.570704}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3604,6 +3606,7 @@ MonoBehaviour:
   - {x: 10.680727, y: 0.002235651, z: -6.429111}
   - {x: 10.705832, y: 0.002235651, z: -10.801039}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3657,6 +3660,7 @@ MonoBehaviour:
   - {x: 0, y: -0.00000071525574, z: 14.338275}
   - {x: 0, y: -0.00000071525574, z: 21.74464}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3711,6 +3715,7 @@ MonoBehaviour:
   - {x: -2.2242208, y: -0.009185553, z: -3.6954393}
   - {x: -4.963341, y: -0.009185553, z: -3.7075772}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3769,6 +3774,7 @@ MonoBehaviour:
   - {x: 7.4279823, y: -0.00000071525574, z: -7.3110337}
   - {x: 9.897461, y: -0.00000071525574, z: -7.279809}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3827,6 +3833,7 @@ MonoBehaviour:
   - {x: -8.351717, y: -0.00000071525574, z: 10.747271}
   - {x: -10.913713, y: -0.00000071525574, z: 10.810714}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3880,6 +3887,7 @@ MonoBehaviour:
   - {x: 0.0000003054738, y: -0.00000071525574, z: -14.720144}
   - {x: 0.0000003054738, y: -0.00000071525574, z: -21.283094}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3933,6 +3941,7 @@ MonoBehaviour:
   - {x: 0.0000019073486, y: -0.00000071525574, z: 14.897882}
   - {x: 0.0000019073486, y: -0.00000071525574, z: 21.563843}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -3986,6 +3995,7 @@ MonoBehaviour:
   - {x: 0.00000047683716, y: -0.00000071525574, z: -14.059637}
   - {x: 0.00000047683716, y: -0.0000007152557, z: -20.912476}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4044,6 +4054,7 @@ MonoBehaviour:
   - {x: -12.446765, y: -0.00000071525574, z: 17.212679}
   - {x: -17.635303, y: -0.00000071525574, z: 17.236706}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4098,6 +4109,7 @@ MonoBehaviour:
   - {x: 4.949707, y: -0.0000007152558, z: 9.6139345}
   - {x: 10.647961, y: -0.0000007152557, z: 10.744782}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4152,6 +4164,7 @@ MonoBehaviour:
   - {x: -4.763796, y: -0.009185553, z: -10.529423}
   - {x: -10.88397, y: -0.009185553, z: -10.870079}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4205,6 +4218,7 @@ MonoBehaviour:
   - {x: -0.0000009536743, y: -0.00000071525574, z: 13.777676}
   - {x: 0.000002861023, y: -0.00000071525574, z: 21.73015}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4258,6 +4272,7 @@ MonoBehaviour:
   - {x: -0.18580532, y: -0.00000071525574, z: -9.237768}
   - {x: -0.16526318, y: -0.0000007152558, z: -15.474125}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4316,6 +4331,7 @@ MonoBehaviour:
   - {x: 11.656055, y: -0.00000071525574, z: -16.592667}
   - {x: 17.302101, y: -0.00000071525574, z: -16.881193}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4369,6 +4385,7 @@ MonoBehaviour:
   - {x: 0.0000016782433, y: -0.00000071525574, z: -15.249607}
   - {x: 0.0000054929405, y: -0.00000071525574, z: -21.677336}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4427,6 +4444,7 @@ MonoBehaviour:
   - {x: -10.366499, y: -0.00000166893, z: -7.3608356}
   - {x: -10.704321, y: -0.00000166893, z: -11.112591}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4481,6 +4499,7 @@ MonoBehaviour:
   - {x: 1.7383232, y: -0.00000071525574, z: 1.310966}
   - {x: 4.1307716, y: -0.0000007152557, z: 1.2767992}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4534,6 +4553,7 @@ MonoBehaviour:
   - {x: -0.0000013746321, y: -0.00000071525574, z: 12.03891}
   - {x: -0.0000013746321, y: -0.00000071525574, z: 18.415936}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4588,6 +4608,7 @@ MonoBehaviour:
   - {x: -0.4861369, y: -0.00000166893, z: 2.3798428}
   - {x: -0.40194654, y: -0.00000166893, z: 4.3801174}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4643,6 +4664,7 @@ MonoBehaviour:
   - {x: 4.5077744, y: 0.002235651, z: -2.2607093}
   - {x: 4.497532, y: 0.002235651, z: -4.4664207}
   lineType: 6
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4701,6 +4723,7 @@ MonoBehaviour:
   - {x: 10.682007, y: -0.010019064, z: 6.9950237}
   - {x: 10.662842, y: -0.010019064, z: 10.935819}
   lineType: 7
+  isVirtual: 0
   isStopSign: 0
   stopSign: {fileID: 0}
   currentState: 2
@@ -4934,16 +4957,15 @@ MonoBehaviour:
   - {x: -16.656954, y: -0.0000007171998, z: 49.9177}
   - {x: 0.0000036209822, y: -0.00000071720405, z: 50.030075}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 1331557946267015584}
   rightLineBoundry: {fileID: 9188768220176022144}
   stopLine: {fileID: 0}
   yieldToLanes: []
   laneTurnType: 1
-  leftBoundType: 1
-  rightBoundType: 6
   speedLimit: 15
 --- !u!1 &8805283521707388160
 GameObject:
@@ -4996,8 +5018,9 @@ MonoBehaviour:
   - {x: -2.6097026, y: -0.00000071525574, z: 14.26282}
   - {x: -9.543808, y: -0.00000071525574, z: 14.783937}
   displayLane: 0
+  needSelfReverseLane: 0
   isSelfReverseLane: 0
-  selfReverseLane: {fileID: 0}
+  otherSelfReverseLaneId: 
   displayLaneWidth: 3.7
   leftLineBoundry: {fileID: 8191527550651475566}
   rightLineBoundry: {fileID: 8191527551015665220}
@@ -5005,8 +5028,6 @@ MonoBehaviour:
   yieldToLanes:
   - {fileID: 1509561225647003813}
   laneTurnType: 2
-  leftBoundType: 0
-  rightBoundType: 0
   speedLimit: 15
 --- !u!1 &9186379730050062970
 GameObject:
