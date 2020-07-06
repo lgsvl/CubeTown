@@ -1,0 +1,15 @@
+{
+  "name": "CubeTown",
+  "accessType": "public",
+  "description": "This map is a virtual environment with block obstacles used to perform basic testing of vehicles. It also serves as an example for how to create a custom 3D environment for LGSVL Simulator.",
+  "licenseName": "LG Simulator",
+  "copyright": "LG Electronics Inc.",
+  "tags": [
+    {
+      "name": "LG"
+    },
+    {
+      "name": "test"
+    }
+  ]
+}
