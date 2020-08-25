@@ -210,9 +210,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5002346314549482824, guid: 2cd0ac6ff79ad5341ba15707d46627d7, type: 3}
 --- !u!1 &559675593893807724
 GameObject:
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf88638820a10f4183498ba1d3ceb69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  SeqId: 0
   boundOffsets: {x: 0, y: 0, z: 0}
   boundScale: {x: 0.65, y: 1.5, z: 0}
   signalData:
@@ -331,6 +331,7 @@ MonoBehaviour:
   stopLine: {fileID: 3934129222518325405}
   signalLightMesh: {fileID: 6369910936959204219}
   signalType: 5
+  _id: signal_1
 --- !u!1 &676029641492960996
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,9 +591,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &932731143818529019
 GameObject:
@@ -875,9 +876,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5002346314549482824, guid: 2cd0ac6ff79ad5341ba15707d46627d7, type: 3}
 --- !u!1 &2185884056022231273
 GameObject:
@@ -2205,7 +2206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf88638820a10f4183498ba1d3ceb69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  SeqId: 0
   boundOffsets: {x: 0, y: 0, z: 0}
   boundScale: {x: 0.65, y: 1.5, z: 0}
   signalData:
@@ -2218,6 +2219,7 @@ MonoBehaviour:
   stopLine: {fileID: 5401049025434246385}
   signalLightMesh: {fileID: 8143644054899010113}
   signalType: 5
+  _id: signal_0
 --- !u!1 &4765344818084349232
 GameObject:
   m_ObjectHideFlags: 0
@@ -3184,9 +3186,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5002346314549482824, guid: 2cd0ac6ff79ad5341ba15707d46627d7, type: 3}
 --- !u!1 &6844958192489831399
 GameObject:
@@ -3479,7 +3481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf88638820a10f4183498ba1d3ceb69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  SeqId: 0
   boundOffsets: {x: 0, y: 0, z: 0}
   boundScale: {x: 0.65, y: 1.5, z: 0}
   signalData:
@@ -3492,6 +3494,7 @@ MonoBehaviour:
   stopLine: {fileID: 1726279714454474247}
   signalLightMesh: {fileID: 1270896094595569244}
   signalType: 5
+  _id: signal_2
 --- !u!1 &7480521058054925192
 GameObject:
   m_ObjectHideFlags: 0
@@ -3844,9 +3847,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &8191527550131423471
 GameObject:
@@ -4679,9 +4682,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &8675005174811699153
 GameObject:
