@@ -291,8 +291,11 @@ MonoBehaviour:
   TimeZoneSerialized: Pacific Standard Time;-480;(UTC-08:00) Pacific Time (US & Canada);Pacific
     Standard Time;Pacific Daylight Time;[01:01:0001;12:31:2006;60;[0;02:00:00;4;1;0;];[0;02:00:00;10;5;0;];][01:01:2007;12:31:9999;60;[0;02:00:00;3;2;0;];[0;02:00:00;11;1;0;];];
   TimeZoneString: (UTC-08:00) Pacific Time (US & Canada)
-  IgnoreVisible: 0
-  IgnoreSpawnable: 0
+  IgnoreNPCVisible: 0
+  IgnoreNPCSpawnable: 1
+  IgnoreNPCBounds: 0
+  IgnorePedBounds: 0
+  IgnorePedVisible: 0
   NPCSizeMask: -1
   NPCMaxCount: 10
   NPCSpawnBoundSize: 200
