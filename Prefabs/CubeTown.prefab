@@ -56,7 +56,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 462149552}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: StreetLamps
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 6310795004565164957}
   - component: {fileID: 335795204837699428}
   - component: {fileID: 8508469024173237533}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BuildingMedium
   m_TagString: Building
   m_Icon: {fileID: 0}
@@ -217,9 +217,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -169846473823903039, guid: 1c53946bf2c3644489b34745c4047422, type: 3}
 --- !u!1 &2821292797524428501
 GameObject:
@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 9091901761447545646}
   - component: {fileID: 3247206452525250519}
   - component: {fileID: 7988788532716002155}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BuildingSmall
   m_TagString: Building
   m_Icon: {fileID: 0}
@@ -355,9 +355,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 7366774079440268648, guid: df16e61bd458ba347b3d5d6de65884eb, type: 3}
 --- !u!1 &3847524598124109906
 GameObject:
@@ -457,9 +457,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4592443178924132677, guid: 95e2bf521a93663448bbc5b44d1a2f19, type: 3}
 --- !u!64 &8826879831102972592
 MeshCollider:
@@ -471,9 +471,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -8634060567236447461, guid: 95e2bf521a93663448bbc5b44d1a2f19, type: 3}
 --- !u!1 &7190429941090112060
 GameObject:
@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 2939116114331539993}
   - component: {fileID: 8932150868289021664}
   - component: {fileID: 5615872622036438474}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BuildingLarge
   m_TagString: Building
   m_Icon: {fileID: 0}
@@ -565,9 +565,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -6998819941287343925, guid: 36010c1cacc2fa343ba3456dcb841003, type: 3}
 --- !u!1 &7281055500267406779
 GameObject:
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 3317989648009923998}
   - component: {fileID: 9022776492022952295}
   - component: {fileID: 1890369760036099540}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BuildingMedium (1)
   m_TagString: Building
   m_Icon: {fileID: 0}
@@ -659,9 +659,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -169846473823903039, guid: 1c53946bf2c3644489b34745c4047422, type: 3}
 --- !u!1 &7590214495265854365
 GameObject:
@@ -717,22 +717,10 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 1453043773871479701, guid: 95e2bf521a93663448bbc5b44d1a2f19, type: 3}
---- !u!114 &390782635787566818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7949303993922684968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c778620e291a641a6ea62dc75170b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8407813887480980004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,71 +1046,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8067381578868726102}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_Name
-      value: EnvironmentCubeTown
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 91
-      objectReference: {fileID: 0}
-    - target: {fileID: -2580401976822039993, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_TagString
-      value: Sidewalk
-      objectReference: {fileID: 0}
-    - target: {fileID: -2580401976822039993, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: -2580401976822039993, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 91
-      objectReference: {fileID: 0}
-    - target: {fileID: -2580401976822039993, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 91
-      objectReference: {fileID: 0}
-    - target: {fileID: -19939828542124983, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacle
-      objectReference: {fileID: 0}
-    - target: {fileID: -19939828542124983, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: -19939828542124983, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5852146886306341807, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_TagString
-      value: Road
-      objectReference: {fileID: 0}
-    - target: {fileID: 5852146886306341807, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5852146886306341807, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 91
-      objectReference: {fileID: 0}
-    - target: {fileID: 5852146886306341807, guid: 95e2bf521a93663448bbc5b44d1a2f19,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 91
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 95e2bf521a93663448bbc5b44d1a2f19,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1178,11 +1101,61 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2580401976822039993, guid: 95e2bf521a93663448bbc5b44d1a2f19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: -2580401976822039993, guid: 95e2bf521a93663448bbc5b44d1a2f19,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -2580401976822039993, guid: 95e2bf521a93663448bbc5b44d1a2f19,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 91
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 95e2bf521a93663448bbc5b44d1a2f19,
+        type: 3}
+      propertyPath: m_Name
+      value: EnvironmentCubeTown
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 95e2bf521a93663448bbc5b44d1a2f19,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 91
+      objectReference: {fileID: 0}
+    - target: {fileID: -19939828542124983, guid: 95e2bf521a93663448bbc5b44d1a2f19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -19939828542124983, guid: 95e2bf521a93663448bbc5b44d1a2f19,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 83
+      objectReference: {fileID: 0}
     - target: {fileID: 34501285238852824, guid: 95e2bf521a93663448bbc5b44d1a2f19,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 540c21d1090224e4797dc159184a30ba, type: 2}
+    - target: {fileID: 5852146886306341807, guid: 95e2bf521a93663448bbc5b44d1a2f19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852146886306341807, guid: 95e2bf521a93663448bbc5b44d1a2f19,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852146886306341807, guid: 95e2bf521a93663448bbc5b44d1a2f19,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 91
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95e2bf521a93663448bbc5b44d1a2f19, type: 3}
 --- !u!1 &7949303993922684968 stripped
@@ -1216,16 +1189,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6312875661938706386}
     m_Modifications:
-    - target: {fileID: 1024508279241297780, guid: 076739a5511bf7f458dc065c38c2cd4c,
-        type: 3}
-      propertyPath: m_Name
-      value: Cube (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1024508279241297780, guid: 076739a5511bf7f458dc065c38c2cd4c,
-        type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
     - target: {fileID: 717872414473643843, guid: 076739a5511bf7f458dc065c38c2cd4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1280,6 +1243,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024508279241297780, guid: 076739a5511bf7f458dc065c38c2cd4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Cube (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024508279241297780, guid: 076739a5511bf7f458dc065c38c2cd4c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3705310956335987583, guid: 076739a5511bf7f458dc065c38c2cd4c,
         type: 3}
@@ -1866,10 +1839,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -1877,26 +1865,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -1956,30 +1924,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -2001,10 +1969,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -2012,26 +1995,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -2091,30 +2054,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -2136,10 +2099,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -2147,26 +2125,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -2226,30 +2184,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -2271,10 +2229,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -2282,26 +2255,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -2361,30 +2314,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -2406,10 +2359,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -2417,26 +2385,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -2496,30 +2444,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -2541,10 +2489,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -2552,26 +2515,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -2631,30 +2574,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -2676,10 +2619,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -2687,26 +2645,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -2766,30 +2704,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -2811,10 +2749,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -2822,26 +2775,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -2901,30 +2834,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -2946,10 +2879,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -2957,26 +2905,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -3036,30 +2964,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -3081,10 +3009,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -3092,26 +3035,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -3171,30 +3094,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -3216,10 +3139,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -3227,26 +3165,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -3306,30 +3224,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -3351,10 +3269,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -3362,26 +3295,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -3441,30 +3354,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -3486,10 +3399,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -3497,26 +3425,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -3576,30 +3484,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -3621,10 +3529,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -3632,26 +3555,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -3711,30 +3614,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
@@ -3756,10 +3659,25 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689419828528075097, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
@@ -3767,26 +3685,6 @@ PrefabInstance:
       value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_Name
-      value: StreetLamp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
@@ -3846,30 +3744,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3925468941844114541, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Name
+      value: StreetLamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997865436097727827, guid: 5c9827c5d77544f41a298005af419a96,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 83
       objectReference: {fileID: 0}
-    - target: {fileID: 4003064448558187260, guid: 5c9827c5d77544f41a298005af419a96,
+    - target: {fileID: 5222536367468184298, guid: 5c9827c5d77544f41a298005af419a96,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435529056437, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997865435812157822, guid: 5c9827c5d77544f41a298005af419a96,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 83
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9827c5d77544f41a298005af419a96, type: 3}
