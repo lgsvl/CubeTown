@@ -51,6 +51,8 @@ MonoBehaviour:
   - {x: -2.2737368e-13, y: -0.00000071525574, z: 12.800003}
   - {x: -4.5474735e-13, y: -0.00000071525574, z: 30.400003}
   - {x: -4.5474735e-13, y: -0.00000071525574, z: 44.90001}
+  _id: lane_19
+  DenySpawn: 0
   type: 0
 --- !u!1 &431809428645094789
 GameObject:
@@ -109,6 +111,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -133,6 +136,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &833248458988104258
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -197,6 +201,8 @@ MonoBehaviour:
   - {x: -1.4917417, y: 0.0024988651, z: -0.99150205}
   - {x: 1.4865462, y: 0.0024988651, z: 0.26549447}
   - {x: 4.677987, y: 0.0024988651, z: 0.13999128}
+  _id: lane_1
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -206,7 +212,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 8191527552111215425}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 3
   speedLimit: 15
 --- !u!1 &589396509324041411
@@ -263,9 +268,9 @@ MonoBehaviour:
   - localPosition: {x: -0, y: -0.4, z: -0}
     signalColor: 3
   stopLine: {fileID: 3934129222518325405}
-  signalLightMesh: {fileID: 0}
   CurrentSignalLight: {fileID: 0}
   signalType: 5
+  _UID: a88a8092-75db-4dcc-ae05-316715ef9242
   _id: signal_1
 --- !u!1 &662016192067085362
 GameObject:
@@ -323,6 +328,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -347,6 +353,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &230952932124141273
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -479,6 +486,8 @@ MonoBehaviour:
   - {x: -2.3530803, y: -0.00000166893, z: 3.6035488}
   - {x: -5.471499, y: -0.00000166893, z: -0.8089536}
   - {x: -5.8197274, y: -0.00000166893, z: -8.142231}
+  _id: lane_10
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -488,7 +497,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 8191527550131423469}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 2
   speedLimit: 15
 --- !u!1 &1582863775897680381
@@ -541,6 +549,8 @@ MonoBehaviour:
   - {x: -3.3186364, y: -0.024848234, z: 3.1552074}
   - {x: -8.024075, y: -0.04148447, z: 6.181177}
   - {x: -15.748861, y: -0.042741798, z: 6.409872}
+  _id: lane_3
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -550,7 +560,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 8191527550132478248}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 2
   speedLimit: 15
 --- !u!1 &1582863776739388400
@@ -602,6 +611,8 @@ MonoBehaviour:
   - {x: 0.0000014305115, y: -0.00000071525574, z: -3.5999994}
   - {x: 0.0000014305115, y: -0.00000071525574, z: 3.6400003}
   - {x: 0.000009059906, y: -0.00000071525574, z: 10.797986}
+  _id: lane_2
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -611,7 +622,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 8191527550910292907}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 1
   speedLimit: 15
 --- !u!1 &1812227682239672474
@@ -671,6 +681,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -695,6 +706,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2572965215271839329
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -759,6 +771,8 @@ MonoBehaviour:
   - {x: 3.5923579, y: -0.0000017771367, z: 3.1471992}
   - {x: -1.3146796, y: -0.0000018640739, z: 5.6757693}
   - {x: -8.081273, y: -0.0000018624214, z: 5.6277103}
+  _id: lane_9
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -769,7 +783,6 @@ MonoBehaviour:
   stopLine: {fileID: 0}
   yieldToLanes:
   - {fileID: 270084806238204098}
-  DenySpawn: 0
   laneTurnType: 2
   speedLimit: 15
 --- !u!1 &2185884056022231273
@@ -885,6 +898,7 @@ MonoBehaviour:
   stopLine: {fileID: 778504065689562123}
   boundOffsets: {x: 0, y: 2.55, z: 0}
   boundScale: {x: 0.95, y: 0.95, z: 0}
+  _id: stop_sign_0
 --- !u!1 &2282152596625653016
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,6 +1002,8 @@ MonoBehaviour:
   - {x: -0.000004529953, y: -0.0000007152558, z: 0.099999994}
   - {x: 0.0000030994415, y: -0.00000071525574, z: -5.6818604}
   - {x: 0.24524617, y: -0.00000071525574, z: -10.868823}
+  _id: lane_8
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -997,7 +1013,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 8191527551386360205}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 1
   speedLimit: 15
 --- !u!1 &2651958037505956752
@@ -1050,6 +1065,8 @@ MonoBehaviour:
   - {x: 0.005995749, y: -0.00000166893, z: 0.3120255}
   - {x: 2.6502554, y: -0.00000166893, z: 1.5440344}
   - {x: 5.722757, y: -0.00000166893, z: 1.9011579}
+  _id: lane_6
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -1059,7 +1076,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 8191527551740854118}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 3
   speedLimit: 15
 --- !u!1 &2651958038088274837
@@ -1112,6 +1128,8 @@ MonoBehaviour:
   - {x: -1.040077, y: -0.00000166893, z: 0.2908668}
   - {x: -1.3274113, y: -0.00000166893, z: 3.2704537}
   - {x: -1.1109884, y: -0.00000166893, z: 6.1859155}
+  _id: lane_7
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -1121,7 +1139,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 8191527551864657515}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 3
   speedLimit: 15
 --- !u!1 &3186512368155524936
@@ -1339,6 +1356,8 @@ MonoBehaviour:
   - {x: -0.00000011920929, y: -0.00000071525574, z: 0.82000315}
   - {x: 0.00000047683693, y: -0.00000071525574, z: -22.170012}
   - {x: 0.14061739, y: -0.00000071525574, z: -42.725697}
+  _id: lane_12
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -1348,7 +1367,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 3186512368935900053}
   stopLine: {fileID: 778504065689562123}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 1
   speedLimit: 15
 --- !u!1 &3430077148337215577
@@ -1417,6 +1435,8 @@ MonoBehaviour:
   - {x: -19.558311, y: -0.0000007171998, z: 49.91769}
   - {x: -9.529984, y: -0.0000007172041, z: 50.030075}
   - {x: 0.11159092, y: -0.00000071720575, z: 50.07277}
+  _id: lane_16
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -1426,7 +1446,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 7435536623923308304}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 1
   speedLimit: 15
 --- !u!1 &3432817048941225185
@@ -1898,6 +1917,8 @@ MonoBehaviour:
   - {x: -25.064411, y: -0.00000071719603, z: 49.821724}
   - {x: -16.656954, y: -0.0000007171998, z: 49.9177}
   - {x: -0.056198206, y: -0.00000071720876, z: 50.150166}
+  _id: lane_14
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -1907,7 +1928,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 9188768220176022144}
   stopLine: {fileID: 1726279714454474247}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 1
   speedLimit: 15
 --- !u!1 &4316468289329671709
@@ -2125,9 +2145,9 @@ MonoBehaviour:
   - localPosition: {x: -0, y: -0.4, z: -0}
     signalColor: 3
   stopLine: {fileID: 5401049025434246385}
-  signalLightMesh: {fileID: 0}
   CurrentSignalLight: {fileID: 0}
   signalType: 5
+  _UID: ff259fbd-f277-4bd2-acd8-4278543effd6
   _id: signal_0
 --- !u!1 &5102763706325480821
 GameObject:
@@ -2376,6 +2396,7 @@ MonoBehaviour:
   stopLine: {fileID: 6057230309457546153}
   boundOffsets: {x: 0, y: 2.55, z: 0}
   boundScale: {x: 0.95, y: 0.95, z: 0}
+  _id: stop_sign_2
 --- !u!1 &6163926040852348208
 GameObject:
   m_ObjectHideFlags: 0
@@ -2442,6 +2463,8 @@ MonoBehaviour:
   - {x: 23.472763, y: -0.0000007118279, z: 57.1516}
   - {x: 13.606019, y: -0.00000071182785, z: 57.152573}
   - {x: 0.06673819, y: -0.0000007118285, z: 57.14108}
+  _id: lane_17
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -2451,7 +2474,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 4767212292369697121}
   stopLine: {fileID: 5401049025434246385}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 1
   speedLimit: 15
 --- !u!1 &6278235127822311643
@@ -2572,6 +2594,8 @@ MonoBehaviour:
   - {x: 2.2737368e-13, y: -0.00000071525574, z: 12.799999}
   - {x: 4.5474735e-13, y: -0.00000071525574, z: 30.400005}
   - {x: 4.5474735e-13, y: -0.00000071525574, z: 44.90001}
+  _id: lane_18
+  DenySpawn: 0
   type: 0
 --- !u!1 &6459911831496300596
 GameObject:
@@ -2620,6 +2644,7 @@ MonoBehaviour:
   stopLine: {fileID: 3485474842123591658}
   boundOffsets: {x: 0, y: 2.55, z: 0}
   boundScale: {x: 0.95, y: 0.95, z: 0}
+  _id: stop_sign_1
 --- !u!1 &6510257639059816763
 GameObject:
   m_ObjectHideFlags: 0
@@ -2778,6 +2803,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2802,6 +2828,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &563175536863645340
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2949,6 +2976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trafficLanesHolder: {fileID: 337661910445180847}
   intersectionsHolder: {fileID: 6891056024758635937}
+  MapWaypointSize: 0.5
 --- !u!1 &6959900928395031919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3051,6 +3079,8 @@ MonoBehaviour:
   - {x: 0.00000071525574, y: -0.00000071525574, z: -2.0299995}
   - {x: 0.00000071525574, y: -0.00000071525574, z: 4.7299995}
   - {x: 0.0000121593475, y: -0.00000071525574, z: 12.2699995}
+  _id: lane_4
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -3060,7 +3090,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 8191527550762170181}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 1
   speedLimit: 15
 --- !u!1 &7447019352179906260
@@ -3117,9 +3146,9 @@ MonoBehaviour:
   - localPosition: {x: -0, y: -0.4, z: -0}
     signalColor: 3
   stopLine: {fileID: 1726279714454474247}
-  signalLightMesh: {fileID: 0}
   CurrentSignalLight: {fileID: 0}
   signalType: 5
+  _UID: a6f3c30d-f14e-4f4b-9849-37e0af99b0a3
   _id: signal_2
 --- !u!1 &7480521058054925192
 GameObject:
@@ -3171,6 +3200,8 @@ MonoBehaviour:
   - {x: -0.0000011811022, y: -0.00000071525574, z: -0.0000009232069}
   - {x: -0.0000011995436, y: -0.00000071525574, z: -3.5717878}
   - {x: -0.0000130981225, y: -0.00000071525574, z: -11.136004}
+  _id: lane_11
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -3180,7 +3211,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 8191527551356875916}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 1
   speedLimit: 15
 --- !u!1 &7510097055139522497
@@ -3281,6 +3311,8 @@ MonoBehaviour:
   - {x: 0.04845047, y: -0.00000071525574, z: -0.7891412}
   - {x: 3.1830406, y: -0.00000071525574, z: -0.19382143}
   - {x: 6.4879456, y: -0.00000071525574, z: -0.24487829}
+  _id: lane_5
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -3290,7 +3322,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 8191527550529956294}
   stopLine: {fileID: 0}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 3
   speedLimit: 15
 --- !u!1 &8110608534899937658
@@ -3359,6 +3390,8 @@ MonoBehaviour:
   - {x: 23.472763, y: -0.0000007118279, z: 57.151592}
   - {x: 13.606019, y: -0.00000071182785, z: 57.152573}
   - {x: -0.12269175, y: -0.0000007118434, z: 56.893166}
+  _id: lane_15
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -3368,7 +3401,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 2922844643970533796}
   stopLine: {fileID: 6057230309457546153}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 1
   speedLimit: 15
 --- !u!1 &8191527550131423471
@@ -4100,6 +4132,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4124,6 +4157,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &8757562116551712555
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4263,6 +4297,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4287,6 +4322,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &9059938359616982737
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4421,6 +4457,8 @@ MonoBehaviour:
   - {x: 2.3900037, y: -0.00000071525574, z: 11.31253}
   - {x: -2.6097026, y: -0.00000071525574, z: 14.26282}
   - {x: -9.475342, y: -0.00000071525574, z: 14.7714615}
+  _id: lane_0
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -4431,7 +4469,6 @@ MonoBehaviour:
   stopLine: {fileID: 0}
   yieldToLanes:
   - {fileID: 1582863776739388414}
-  DenySpawn: 0
   laneTurnType: 2
   speedLimit: 15
 --- !u!1 &9059518786121421272
@@ -4551,6 +4588,8 @@ MonoBehaviour:
   - {x: -0.00000024295878, y: -0.00000071525574, z: 0.870003}
   - {x: -0.0000005811453, y: -0.00000071525574, z: 20.28}
   - {x: -0.17654422, y: -0.0000007376075, z: 42.925743}
+  _id: lane_13
+  DenySpawn: 0
   displayLane: 0
   needSelfReverseLane: 0
   isSelfReverseLane: 0
@@ -4560,7 +4599,6 @@ MonoBehaviour:
   rightLineBoundry: {fileID: 3186512368976395428}
   stopLine: {fileID: 3934129222518325405}
   yieldToLanes: []
-  DenySpawn: 0
   laneTurnType: 1
   speedLimit: 15
 --- !u!1 &9186379730050062970
@@ -4605,6 +4643,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7699852
       objectReference: {fileID: 0}
@@ -4620,6 +4663,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -4632,16 +4680,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
         type: 3}
@@ -4685,6 +4723,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.99999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.99999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.2441444
       objectReference: {fileID: 0}
@@ -4697,6 +4750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -3.070001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
         type: 3}
@@ -4715,16 +4773,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -4737,16 +4785,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.99999976
       objectReference: {fileID: 0}
     - target: {fileID: 6982896937503574748, guid: 8011c60d82717684fbdac2b4b716f120,
         type: 3}
@@ -4775,6 +4813,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.0600357
       objectReference: {fileID: 0}
@@ -4790,6 +4833,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -4802,16 +4850,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 6247444982245275855, guid: 8011c60d82717684fbdac2b4b716f120,
         type: 3}
